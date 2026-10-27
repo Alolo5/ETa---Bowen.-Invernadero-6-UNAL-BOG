@@ -1,19 +1,19 @@
 # Estimación de Evapotranspiración Real (ETa) mediante Razón de Bowen (BREB) en Invernadero
 
-Este repositorio contiene el pipeline de procesamiento agrometeorológico para la estimación y análisis de la Evapotranspiración Real (ETa) mediante el método del Balance de Energía y Razón de Bowen (BREB). El proyecto está desarrollado como parte del trabajo de tesis de maestría, realizado en un entorno de invernadero ubicado en Bogotá, Colombia (Universidad Nacional de Colombia - Sede Bogotá).
+Este repositorio contiene el pipeline de *procesamiento agrometeorológico* para la estimación y análisis de la Evapotranspiración Real (ETa) mediante el método del Balance de Energía y Razón de Bowen (BREB). El proyecto está desarrollado como parte del trabajo de tesis de maestría, realizado en un entorno de invernadero ubicado en Bogotá, Colombia (Universidad Nacional de Colombia - Sede Bogotá).
 
 ---
 
-## 📌 Contexto y Ubicación
+## Contexto y Ubicación
 
-* **Ubicación:** Invernadero de Docencia e Investigación (Invernadero 6), UNAL Sede Bogotá.
-* **Elevación:** $2600$ msnm.
-* **Presión Atmosférica Promedio ($P$):** $\approx 75,4$ kPa.
-* **Instrumentación:** Datalogger Meter ZL6 (radiación solar, humedad de suelo) y psicrómetros con dataloggers EL-USB-2-LCD.
+- **Ubicación:** Invernadero No6 de la Facultad de Ciencias Agrarias, UNAL Sede Bogotá.
+- **Elevación:** $/approx 2600$ msnm.
+- **Presión Atmosférica Promedio ($P$):** $\approx 75,4$ kPa.
+- **Instrumentación:** Datalogger Meter ZL6 (radiación solar, humedad de suelo) y psicrómetros EL-USB-2-LCD a diferentes alturas.
 
 ---
 
-## ⚙️ Flujo de Procesamiento Computacional (Pipeline)
+## Flujo de Procesamiento Computacional (Pipeline)
 
 El análisis automatizado en Python ejecuta las siguientes etapas sobre las series temporales:
 
@@ -43,3 +43,4 @@ El análisis automatizado en Python ejecuta las siguientes etapas sobre las seri
             │
             ▼
 [9. Agregación Diaria] ─────────► Integración de la lámina acumulada (.resample('1D').sum())
+```
