@@ -9,6 +9,10 @@ venv/
 *.xlsx
 *.csv
 *.txt
+*.pdf
+*.png
+Documentación Tesis/
+DATA - acotada/
 !requirements.txt
 
 # Archivos del sistema
