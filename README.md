@@ -7,7 +7,7 @@ Este repositorio contiene el pipeline de *procesamiento agrometeorológico* para
 ## Contexto y Ubicación
 
 - **Ubicación:** Invernadero No6 de la Facultad de Ciencias Agrarias, UNAL Sede Bogotá.
-- **Elevación:** $/approx 2600$ msnm.
+- **Elevación:** $\approx 2600$ msnm.
 - **Presión Atmosférica Promedio ($P$):** $\approx 75,4$ kPa.
 - **Instrumentación:** Datalogger Meter ZL6 (radiación solar, humedad de suelo) y psicrómetros EL-USB-2-LCD a diferentes alturas.
 
