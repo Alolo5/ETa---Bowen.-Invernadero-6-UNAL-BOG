@@ -1,0 +1,15 @@
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales o de Conda
+env/
+venv/
+
+# Datos crudos o pesados (sube solo el código, no las bases de datos masivas)
+*.xlsx
+*.csv
+*.txt
+!requirements.txt
+
+# Archivos del sistema
+.DS_Store
