@@ -13,6 +13,8 @@ venv/
 *.png
 Documentación Tesis/
 DATA - acotada/
+Balance radiativo - Bowen_Preprocesamiento.ipynb
+Balance radiativo - Bowen_V1.ipynb
 !requirements.txt
 
 # Archivos del sistema
