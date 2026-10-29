@@ -1,4 +1,4 @@
-# Estimación de Evapotranspiración Real (ETa) mediante Razón de Bowen (BREB) en Invernadero
+# Estimación de Evapotranspiración Real (ETa) mediante la razón de Bowen (BREB) en invernadero
 
 Este repositorio contiene el pipeline de *procesamiento agrometeorológico* para la estimación y análisis de la Evapotranspiración Real (ETa) mediante el método del Balance de Energía y Razón de Bowen (BREB). El proyecto está desarrollado como parte del trabajo de tesis de maestría en ciencias - meteorología, realizado en un entorno de invernadero ubicado en Bogotá, Colombia (Universidad Nacional de Colombia - Sede Bogotá).
 
